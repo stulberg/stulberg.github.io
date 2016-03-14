@@ -1,0 +1,241 @@
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v11/qIIYRU-oROkIk8vfvxw6QvesZW2xOQ-xsNqO47m55DA.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'Droid Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Droid Sans'), local('DroidSans'), url(https://fonts.gstatic.com/s/droidsans/v6/s-BiyweUPV0v-yRb-cjciL3hpw3pgy2gAi-Ip7WPMi0.woff) format('woff');
+}
+
+.space {
+    padding-top: 50px;
+}
+
+.header {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("images/bidnight2015.jpg");
+    width: 100%;
+    height: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+}
+
+.intro-message h1 {
+    font-family: 'Droid Sans', sans-serif;
+    font-size: 5em;
+    font-weight: 700;
+    padding-top: 150px; 
+    text-align: center;
+    text-shadow: 2px 2px #0D4F8B;
+    color: #f8f8f8;
+}
+
+hr.divider {
+    max-width: 200px;
+    height: 3px;
+    background-color: white;
+}
+
+.intro-message h3 {
+    font-family: 'Droid Sans', sans-serif;
+    font-size: 2.5em;
+    font-weight: 700;
+    padding-top: 0px;
+    text-align: center;
+    color: #f8f8f8;
+}
+
+.navbar {
+	position: absolute;
+    padding-right: 3%;
+    width: 100%;
+    left: 0;
+    background-color: #162252;
+    text-align: center;
+    margin: auto;
+}
+
+nav.navbar.navbar-inverse > div.navbar-header > a.navbar-brand {
+    font-family: 'Lato', sans-serif;
+    color: white;
+}
+
+nav.navbar.navbar-inverse > div.navbar-header > a.navbar-brand:hover {
+    color: yellow;
+}
+
+.navbar.navbar-inverse.navbar-fixed-top ul li a {
+    font-family: 'Droid Sans', sans-serif;
+    color: white;
+    text-decoration: none;
+}
+
+.navbar-inverse.navbar-fixed-top ul li a:hover {
+    color: yellow;
+}
+
+.nav {
+    text-align: center;
+}
+
+.fa.fa-facebook.fa-fw.fa-3x {
+    color: white;
+}
+
+.fa.fa-facebook.fa-fw.fa-3x:hover {
+    color: yellow;
+}
+
+.fa.fa-tumblr.fa-fw.fa-3x {
+    color: white;
+}
+
+.fa.fa-tumblr.fa-fw.fa-3x:hover {
+    color: yellow;
+}
+
+.fa.fa-instagram.fa-fw.fa-3x {
+    color: white;
+}
+
+.fa.fa-instagram.fa-fw.fa-3x:hover {
+    color: yellow;
+}
+
+hr.small {
+    max-width: 100px;
+    height: 3px;
+    background-color: white;
+}
+
+.followus {
+    background-color: #162252;
+    color: white;
+    font-family: 'Droid Sans', sans-serif;
+}
+
+/*Mom's Weekend Page CSS*/
+.momswknd {
+    background-color: #CAE1FF;
+}
+
+.momswknd h1 {
+    padding-top: 25px;
+    text-align: center;
+    font-family: 'Droid Sans', sans-serif;
+}
+
+.momswkndschedule {
+    padding-right: 0;
+    padding-left: 0;
+    margin: 0 auto;
+    background-color: #CAE1FF;
+    width: 100%;
+    font-family: 'Droid Sans', sans-serif;
+}
+
+.momswkndschedule p {
+    text-align: center;
+}
+
+.momswkndschedule h1 {
+    font-size: 2em;
+}
+
+.momswkndschedule h3 {
+    text-align: center;
+}
+
+.momswkndschedule h4 {
+    text-align: center;
+    font-family: 'Droid Sans', sans-serif;
+}
+
+/*Board Page CSS*/
+.board {
+    font-family: 'Droid Sans', sans-serif;
+}
+
+.execimg {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.president {
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+    -webkit-border-radius: 150px;
+    -moz-border-radius: 150px;
+    background: url("images/person.jpg") no-repeat;
+}
+
+/*Philanthropy Page CSS*/
+.img-portfolio {
+    margin: 0 auto;
+}
+
+.philanthropy {
+    font-family: 'Droid Sans', sans-serif;
+    background-color: #CAE1FF;
+}
+
+.philanthropy h1 {
+    padding-top: 25px;
+    text-align: center;
+}
+
+.philanthropy h3 {
+    text-align: center;
+}
+
+hr.pdivide1 {
+    max-width: 250px;
+    height: 3px;
+    background-color: #0D4F8B;
+    border: none;
+}
+
+/*Calendar Page CSS*/
+.responsive-iframe-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+ 
+.responsive-iframe-container iframe,   
+.vresponsive-iframe-container object,  
+.vresponsive-iframe-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.googlecal {
+    padding-top: 75px;
+    padding-bottom: 50px;
+    padding-right: 50px;
+    padding-left: 50px;
+    background-color: #CAE1FF;
+}
+
+hr.caldivide {
+    max-width: 100px;
+    height: 3px;
+    background-color: #0D4F8B;
+    border: none;
+}
+
+.calendar-message {
+    font-family: 'Droid Sans', sans-serif;
+    text-align: center;
+    color: black;
+}
